@@ -1,7 +1,7 @@
 import * as THREE from 'three';
-import Stats from 'three/examples/jsm/libs/stats.module';
+import Stats from 'three/addons/libs/stats.module.js';
 
-import { Scene } from './scene';
+import { Scene } from './scene.js';
 
 export class Engine {
 

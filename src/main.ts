@@ -1,5 +1,5 @@
-import { Engine } from './threejs/engine';
-import { Scene } from './threejs/scene';
+import { Engine } from './threejs/engine.js';
+import { Scene } from './threejs/scene.js';
 
 const engine = new Engine({
     container: document.getElementById('container'),

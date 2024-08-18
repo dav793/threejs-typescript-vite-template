@@ -1,7 +1,12 @@
 import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
-import { Engine } from './engine';
+import { Engine } from './engine.js';
+
+const loadingManager = new THREE.LoadingManager();
+const gltfLoader = new GLTFLoader( loadingManager );
+const textureLoader = new THREE.TextureLoader( loadingManager );
 
 export class Scene {
 
