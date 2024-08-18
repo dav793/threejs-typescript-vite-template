@@ -1,0 +1,26 @@
+{
+  "name": "threejs-typescript-vite-template",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && concurrently --kill-others \"tsc --watch\" \"vite\"",
+    "serve": "vite",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Vargas",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/three": "^0.167.1",
+    "concurrently": "^8.2.2",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "nanoid": "^5.0.7",
+    "rxjs": "^7.8.1",
+    "three": "^0.167.1"
+  }
+}

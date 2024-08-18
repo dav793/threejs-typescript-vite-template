@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es2022",
+        "module": "es2022",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outDir": "public/script",
+        "sourceMap": true,
+    },
+    "watchOptions": {
+        "watchFile": "fixedPollingInterval",
+        "watchDirectory": "fixedPollingInterval",
+        "excludeDirectories": ["**/node_modules", "public/script"]
+    },
+    "include": ["src/**/*.ts"]
+}
